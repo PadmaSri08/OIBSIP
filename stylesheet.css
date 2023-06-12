@@ -1,0 +1,59 @@
+body{
+    background-color: beige;
+}
+.well{
+    background-image: url("study.jpeg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-top: 100px;
+}
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .topnav a {
+    height: 50px;
+    width: 100px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: lightskyblue;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: lightskyblue;
+    color:black;
+  }
+.CO{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    margin-top: 0;
+    align-items: flex-end;
+    gap:1px;
+    justify-content: center;
+}
+.icons a{
+    margin-right: 50px;
+}
+.para{
+    text-align: center;
+}
